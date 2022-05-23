@@ -7,3 +7,7 @@ variable "instance_type" {
   default = "t2.micro" 
   type = string
 }
+
+variable "owner" {
+  default = "ehron"
+}
